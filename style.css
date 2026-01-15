@@ -1,0 +1,141 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #2d3033;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border: 2px solid #212325;
+}
+
+th {
+    background-color: #272a2c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ffffff; 
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+  
+    border: 1px solid #ddd; 
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+.fiche-montagne {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: 40px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.colonne-gauche {
+    flex: 1;
+}
+
+
+.colonne-gauche img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.colonne-droite {
+    flex: 1.5;
+    text-align: left;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white ;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #282b2e;
+    color: white;
+}
+
+.header-content h1 {
+    color: white; 
+    margin: 0;
+    font-size: 2em;
+}
+
+.logo-header {
+    width: 80px;  
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 2px solid white;
+    margin: 0; 
+}
+
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #1e2022;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
